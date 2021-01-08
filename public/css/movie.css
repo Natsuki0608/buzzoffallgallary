@@ -1,0 +1,90 @@
+@keyframes clock {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes anti-clock {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+@keyframes glassopacity {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.parent1 {
+  position: relative;
+  width: 50vw;
+  margin: 0 auto;
+}
+.parent1 .overlap1 {
+  position: absolute;
+}
+.parent1 .overlap1 img {
+  width: 50vw;
+  margin: 0 auto;
+}
+.parent1 .overlap1 .glass1 {
+  animation: clock 300s linear infinite;
+}
+.parent1 .overlap1 .glass2 {
+  animation: anti-clock 60s linear infinite;
+}
+
+.parent2 {
+  position: relative;
+  width: 50vw;
+  margin: 0 auto;
+}
+.parent2 .overlap2 {
+  position: absolute;
+  top: 60vw;
+}
+.parent2 .overlap2 img {
+  width: 50vw;
+  margin: 0 auto;
+}
+.parent2 .overlap2 .glass3 {
+  animation: clock 100s linear infinite;
+}
+.parent2 .overlap2 .glass4 {
+  animation: clock 100s linear infinite, glassopacity 10s linear infinite;
+}
+
+@media screen and (max-width: 991px) {
+  .parent1 {
+    width: 100vw;
+  }
+  .parent1 .overlap1 img {
+    width: 90vw;
+  }
+
+  .parent2 {
+    width: 100vw;
+  }
+  .parent2 .overlap2 {
+    top: 120vw;
+  }
+  .parent2 .overlap2 img {
+    width: 90vw;
+  }
+}

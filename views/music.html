@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buzzoffall Art Gallary</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/css/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@0.10.2/lib/p5.js"></script>
+    <script src="../public/sketch.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <div class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand">Buzzoffall Work Gallary</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="music.html">Music</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Geometry Art</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="whiteart.html">White Art</a>
+                            <a class="dropdown-item" href="colorart.html">Color Art</a>
+                            <a class="dropdown-item" href="fractalart.html">Fractal Art</a>
+                            <a class="dropdown-item" href="movieart.html">Movie Art</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Novel</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Lightning.html">落雷</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://imprintreading.herokuapp.com/" target="_blank">刻印読書</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="form.html">お問い合わせ</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container text-light text-center">
+        <br>
+        <br>
+        <br>
+        <h1 class="mt-5 mb-3">Music</h1>
+        <p>各曲の続きは<span class="orange">オレンジのボタン</span>から</p>
+        <br>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">Glome</h2>
+                <audio controls src="../public/audio/Glome.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.com/natsuki-yoshida-209704567/glome" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-dark text-light pt-2">
+                <p>8分超にも及ぶ超大作。</p>
+                <p>math rockテイストのギターフレーズとピアノの綺麗な旋律が、常に違う世界観へと誘う楽曲です。</p>
+                <p>展開し続け、全く違う楽曲になったと思いきや突如メインフレーズに戻り、また違う展開へと進み続けます。</p>
+                <p>テンポの変化は付点や連符を活かし滑らかにおこなっています。</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">めっちゃかわいい曲</h2>
+                <audio controls src="../public/audio/cute.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.com/natsuki-yoshida-209704567/sgaxazu2pk5z" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-secondary text-white pt-2">
+                <p>川のほとりに座り、無数に広がる夜空の星を見ている様子をテーマに作った曲です。</p>
+                <p>フルートを主役とし、オーケストラ風のアレンジをしました。</p>
+                <p>曲前半は川のほとりに焦点が当たり、サビ後半は無数の星に焦点が当たっています。徐々に視線が空に向いていく雰囲気を楽しんでください。</p>
+                <p>アウトロには遊び心で「ゆうやけこやけ」のメロディを入れてみました。</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">花言葉</h2>
+                <audio controls src="../public/audio/flower.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.app.goo.gl/jCU8gLpiiSSjDwHA6" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-dark text-light pt-2">
+                <p>ピアノのみのシンプルな楽曲です。</p>
+                <p>アルフォンス・ミュシャの『花言葉』をテーマに作曲しました。</p>
+                <p>転調を駆使し、3回あるサビは全て違うキーで演奏されています。それぞれのサビが違うキーであることを気づきにくい転調を意識しました。</p>
+                <p>リズムは3+2+3+3で取り続けられます。</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">普通にかっこいい曲</h2>
+                <audio controls src="../public/audio/cool.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-8"></div>
+                        <div class="col-2">
+                            <a href="https://www.instagram.com/p/CF9u47HJQxI/?utm_source=ig_web_copy_link" class="btn btn-instagram" role="button" target="_blank"><i class="fab fa-instagram mx-1"></i></a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.com/natsuki-yoshida-209704567/bbcq21h0ljlc" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-secondary text-white pt-2">
+                <p>行進・前進をイメージしたポジティブな楽曲です。</p>
+                <p>変拍子テイストはかなり控え、誰でも聴きやすい音楽を意識しました。また、普段はあまり使わないDistortionサウンドも取り入れました。</p>
+                <p>アウトロのメロディは別楽曲の伏線です。新作を乞うご期待。</p>
+                <p>ギターの煌びやかな音が綺麗です。</p>
+            </div>
+        </div>
+
+        <div class="row mt-5 b-border">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">Narcolepsy Fanfare</h2>
+                <audio controls src="../public/audio/fanfare.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-8"></div>
+                        <div class="col-2">
+                            <a href="https://www.instagram.com/p/BsVLGybHT4T/?utm_source=ig_web_copy_link" class="btn btn-instagram" role="button" target="_blank"><i class="fab fa-instagram mx-1"></i></a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.app.goo.gl/eGpzf1u8PpHYJuZVA" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-dark text-light pt-2">
+                <p>ナルコレプシーをテーマにした楽曲です。</p>
+                <p>突然眠気に襲われ、夢に落ちていく様を楽しんで聴いてください。</p>
+                <p>後半のファンファーレパートは夢の中でどこか他人事の様なイメージを表現しています。現実離れした悪夢の予兆です。</p>
+                <p>ファンファーレのメロディは『Capgras Delusion』で形を変えて登場します。</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">Narcolepsy Nightmare</h2>
+                <audio controls src="../public/audio/narcolepsynightmare.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.app.goo.gl/JJQ4JKZkHtcEUyWz8" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-dark text-light pt-2">
+                <p>悪夢の如く変拍子です。ポリリズムも取り入れています。</p>
+                <p>この楽曲はテーマとしての悪夢だけでなく、演奏者にとっても悪夢と感じるように作りました。演奏はしたくないです。</p>
+                <p>後半、平行調転調で目覚めの兆しを表現しますが...。</p>
+                <p>この曲は一切テンポ変化がありません。リズムトリックです。</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">Capgras Delusion</h2>
+                <audio controls src="../public/audio/capgras.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.app.goo.gl/5CCa7B2DV1E2wjS99" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-secondary text-white pt-2">
+                <p>カプグラ症候群をテーマにした曲です。</p>
+                <p>イントロのstringsはfanfareのテーマを変化させたものです。</p>
+                <p>サビは2周しますが、同じように聴こえて微妙に違います。逆にテンポ変化を感じる部分はヘミオラであり、テンポは変わりません。</p>
+                <p>現実と思考の境界線がなくなる様な不思議な感覚を楽しんでください。</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">Bilocation</h2>
+                <audio controls src="../public/audio/bilocation.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-10"></div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.app.goo.gl/hZCpWSeNVNv9JeTy7" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-dark text-light pt-2">
+                <p>バイロケーションをテーマにした楽曲です。</p>
+                <p>1周目と2周目でピアノのメロディが逆になる、メインメロディが形を変えて色んな所に出現するなどのアイデアを取り入れました。</p>
+                <p>ポリリズム色の強い楽曲です。ドラムのアクセントに対して16分音符ずつズレます。</p>
+                <p>アウトロのテンポチェンジ後はイントロのメロディを11/16拍子にしたものです。</p>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+           <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">Sera</h2>
+                <audio controls src="../public/audio/sera.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-8"></div>
+                        <div class="col-2">
+                            <a href="https://www.instagram.com/p/BwRs4Pqnkhm/?utm_source=ig_web_copy_link" class="btn btn-instagram" role="button" target="_blank"><i class="fab fa-instagram mx-1"></i></a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.app.goo.gl/iPESdTmwUTuhcHoZ7" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-secondary text-white pt-2">
+                <p>夕暮れをテーマにしたピアノバンド曲です。</p>
+                <p>ピアノとギターの主役度を同じにし、掛け合いのような楽曲に仕上げました。</p>
+                <p>変拍子で制作しポリリズムメロディーも含まれていますが、アクセントを調節しテンポを遅くすることで聴きやすい楽曲になっています。</p>
+                <p>転調、アウトロでより夕が深まり夜になっていく様子を楽しんでください。</p>
+            </div>
+        </div>
+
+        <div class="row mt-5 b-border">
+            <div class="col-lg-4 col-12">
+                <h2 class="text-light text-center my-3">民族と文明のダンス</h2>
+                <audio controls src="../public/audio/dance1.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-6"></div>
+                        <div class="col-2">
+                            <a href="https://youtu.be/YrTX5tmhjJw" class="btn btn-youtube" role="button" target="_blank"><i class="fab fa-youtube"></i></a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://www.instagram.com/p/B81AjDzJrf2/?utm_source=ig_web_copy_link" class="btn btn-instagram" role="button" target="_blank"><i class="fab fa-instagram mx-1"></i></a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.app.goo.gl/SLW8oJnDaohv8DJ37" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-dark text-light pt-2">
+                <p>民族音楽をモチーフにした楽曲です。</p>
+                <p>「野生と情動」「闘争と本能」「洞窟と壁画」「知恵と乱舞」をテーマにした4部構成になっています。</p>
+                <p>発生から集団の形成、知恵の発達をイメージ。</p>
+                <p>ピアノパートは友人がイベントのために作成しました。</p>
+            </div>
+        </div>
+        <div class="row pb-5">
+            <div class="col-lg-4 col-12">
+                <h3 class="text-light text-center my-3">続・民族と文明のダンス</h3>
+                <audio controls src="../public/audio/dance2.wav" class="my-2"></audio>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-8"></div>
+                        <div class="col-2">
+                            <a href="https://www.instagram.com/p/BwUOtA_HXTW/?utm_source=ig_web_copy_link" class="btn btn-instagram" role="button" target="_blank"><i class="fab fa-instagram mx-1"></i></a>
+                        </div>
+                        <div class="col-2">
+                            <a href="https://soundcloud.app.goo.gl/xnELoLkRoir4L2U7A" class="btn btn-soundcloud" role="button" target="_blank"><i class="fab fa-soundcloud"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-12 bg-dark text-light pt-2">
+                <p>民族の中から1人のリーダーに着目した続編です。</p>
+                <p>楽曲の難易度は、前作よりも知恵が向上していることを表現しています。</p>
+                <p>民族間での抗争が始まりだし、リーダーは神聖なる壁画へと向かいます。洞窟の中で神託を受け民族間の繋がりが一層強まります。</p>
+                <p>アウトロは開戦間近です。続編にて民族の結末が明らかになります。</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        'use strict';
+
+        /* audio・video 音量初期値の設定 */
+        const mediasVol_def = function() {
+            //範囲： 0〜1 の間　※初期値=1(100%の最大)
+
+            //audioの数だけ全部音量0.5(=50%)
+            const audios = document.getElementsByTagName('audio');
+            for (let n = 0; audios.length > n; n++) {
+                audios[n].volume = 0.3;
+            }
+        }
+        /* ページ読み込み時に処理 */
+        window.addEventListener('DOMContentLoaded', function() {
+            mediasVol_def();
+        }, false);
+
+    </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+#defaultCanvas0 {
+    position: fixed;
+    /*canvasを固定*/
+    top: 0;
+    /*canvasを上に固定*/
+
+}
+
+nav {
+    z-index: 5;
+}
+
+div {
+    position: relative;
+    z-index: 4;
+}
+
+.image-size {
+    width: 25vw;
+}
+
+.orange {
+    color: #FF550C;
+}
+
+.btn-soundcloud {
+    background-color: #FF550C;
+    color: white;
+}
+
+.btn-soundcloud:hover {
+    background-color: white;
+    color: #FF550C;
+}
+
+.btn-instagram {
+    background: -webkit-linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    background: linear-gradient(135deg, #427eff 0%, #f13f79 70%) no-repeat;
+    color: white;
+}
+
+.btn-youtube {
+    background-color: white;
+    color: red;
+}
+
+.btn-youtube:hover {
+    background-color: red;
+    color: white;
+}
+
+.novel-sentence {
+    line-height: 2.5vw;
+    font-size: 1.5vw;
+}
+
+audio {
+    width: 90%;
+    margin-left: 1vw;
+}
+
+.b-border {
+    border-bottom: 1px solid white;
+}
+
+
+
+@media screen and (max-width: 991px) {
+    .image-size {
+        width: 45vw;
+    }
+
+    .novel-sentence {
+        line-height: 3.5vw;
+        font-size: 2vw;
+    }
+
+    audio {
+        width: 100%;
+        margin-left: 0vw;
+    }
+
+    .b-border {
+        border: 0px none;
+    }
+
+
+}
+
+@media screen and (max-width: 575px) {
+    .image-size {
+        width: 70vw;
+    }
+
+    .novel-sentence {
+        line-height: 6vw;
+        font-size: 3.75vw;
+    }
+
+    .home-title {
+        font-size: 7vw;
+    }
+
+
+}
